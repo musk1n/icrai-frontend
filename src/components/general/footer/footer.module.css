@@ -1,0 +1,51 @@
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.connect{
+    font-size: 20px;
+}
+
+.socials-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*for lines*/
+.socials::before,
+.socials::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: white;
+    margin: 0 10px;
+    align-self: center;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+    padding: 10px;
+}
+
+.link:hover {
+    color: #FF3D00;
+}
